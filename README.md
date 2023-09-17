@@ -4,6 +4,8 @@
 
 > 주제: [생활코딩님의 JAVA1 유튜브 강의]()
 
+<br/>
+
 ## 구성원
 
 <table>
@@ -17,8 +19,8 @@
         </sub>
     </td>
     <td align="center">
-      <a href="https://github.com/">
-        <img src="https://avatars.githubusercontent.com/" width="100px;" alt="" /><br/>
+      <a href="https://github.com/5dotseven">
+        <img src="https://avatars.githubusercontent.com/5dotseven" width="100px;" alt="" /><br/>
       </a>
         <sub>
           <b>나정균</b>
@@ -26,6 +28,8 @@
     </td>
   </tr>
 </table>
+
+<br/>
 
 ## 진행방식
 
