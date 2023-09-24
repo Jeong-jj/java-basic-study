@@ -2,7 +2,6 @@ import javax.swing.JOptionPane;
 import org.opentutorials.iot.*;
 
 public class OkJavaGoinHomeInput {
-
 	public static void main(String[] args) {
 		String id = JOptionPane.showInputDialog("Enter a ID");
 		String bright = JOptionPane.showInputDialog("Enter Bright");
