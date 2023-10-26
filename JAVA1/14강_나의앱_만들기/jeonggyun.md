@@ -32,6 +32,7 @@ public class AccountingApp{
         System.out.println("dividend2" + ((10000.0 - 100000.0 * 0.3)*0.3));
         System.out.println("dividend3" + ((10000.0 - 100000.0 * 0.3)*0.2));
         
+    }
 }
 ```
 
@@ -123,6 +124,8 @@ public class AccountingApp {
     double dividend2 = income * dividendrates[1];
     double dividend3 = income * dividendrates[2];
 
+    //for(int i=0; i<dividendrates.length i++)
+
     int i = 0; // 몇번 반복 되는지를 i에 기록
     while(i < dividendrates.length){ // dividendrates에 배열의 갯수 만큼 실행 된다.
         System.out.println("Dividend: " + income * dividendrates[i])
@@ -131,13 +134,16 @@ public class AccountingApp {
     ```
 
     - `메소드`
-    1. 클래스의 동작을 나타내는 함수, 서로 연관된 코드를 그룹핑해서 이름을 붙힌 정리정돈된 상자
+    1. 클래스의 동작을 나타내는 함수, 서로 연관된 코드를 그룹핑해서 이름을 붙힌 정리정돈된 상자 -> 클레스
+        객체안에 있는 함수
     2. 메소드란 입력 값에 따른 결과를 반환하는 코드 묶음
     3. 간단한 호출으로 여러 줄의 코드를 수행할 수 있다.
     4. 호출부와 정의부로 나뉘어 동작
         - 호출부 : 메소드를 사용하는 영역
         - 정의부 : 입력값을 받아서 결과(반환값)를 만드는 코드 묶음
     - why: 중복되는 코드의 반복적인 프로그래밍을 피할 수 있음
+
+    
 
     <img width="438" alt="스크린샷 2023-10-12 오후 4 01 56" src="https://github.com/Jeong-jj/java-basic-study/assets/144773042/4aacc96c-bd9f-4d8b-a5a7-8b2f11c49683">
     
@@ -175,6 +181,7 @@ public class AccountingApp {
     2. 자바에서 이러한 객체에 속성(field), 동작(method)라고 한다.
     3. 자바는 객체지향프로그램
 
+
     ```java
     //window - over view - outline
     ```
@@ -188,6 +195,8 @@ public class AccountingApp {
     }
     ```
     <img width="178" alt="스크린샷 2023-10-12 오후 4 39 08" src="https://github.com/Jeong-jj/java-basic-study/assets/144773042/ee6fb95e-ba32-40ec-aea3-73b623e63272">
+
+
 
     
 
